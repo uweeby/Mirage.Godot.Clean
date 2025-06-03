@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="Mirage.Godot.Clean"
-run/main_scene="res://node_2d.tscn"
+run/main_scene="uid://bwwbq0vqax88v"
 config/features=PackedStringArray("4.4", "C#")
 config/icon="res://icon.svg"
 
