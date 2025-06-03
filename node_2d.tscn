@@ -1,3 +1,62 @@
-[gd_scene format=3 uid="uid://b4iscimxhmrc8"]
+[gd_scene load_steps=9 format=3 uid="uid://b4iscimxhmrc8"]
+
+[ext_resource type="Script" uid="uid://w5b4owjflqiu" path="res://Scripts/NetworkServer.cs" id="1_epypp"]
+[ext_resource type="Script" uid="uid://d3gh24da67did" path="res://Scripts/Components/NetworkManager.cs" id="1_q6r6c"]
+[ext_resource type="Script" uid="uid://do4yp43xwbvnw" path="res://Scripts/Udp/UdpSocketFactory.cs" id="2_0hol4"]
+[ext_resource type="Script" uid="uid://k06imkqhqfou" path="res://Scripts/NetworkClient.cs" id="3_d21ai"]
+[ext_resource type="Script" uid="uid://cgy0caypdwc16" path="res://Scripts/Objects/ServerObjectManager.cs" id="3_q6r6c"]
+[ext_resource type="Script" uid="uid://ju5e0xxx2bcv" path="res://Scripts/Components/MirageLogSettings.cs" id="4_0hol4"]
+[ext_resource type="Script" uid="uid://6gnyagatho3g" path="res://Scripts/Objects/ClientObjectManager.cs" id="7_rj586"]
+[ext_resource type="Script" uid="uid://02nidtyhkc1i" path="res://Scripts/NetworkHud.cs" id="8_rj586"]
 
 [node name="Node2D" type="Node2D"]
+
+[node name="NetworkManager" type="Node" parent="." node_paths=PackedStringArray("Server", "ServerObjectManager", "Client", "ClientObjectManager", "SocketFactory")]
+script = ExtResource("1_q6r6c")
+Server = NodePath("../NetworkServer")
+ServerObjectManager = NodePath("../ServerObjectManager")
+Client = NodePath("../NetworkClient")
+ClientObjectManager = NodePath("../ClientObjectManager")
+SocketFactory = NodePath("../UdpSocketFactory")
+EnableAllLogs = true
+metadata/_custom_type_script = "uid://d3gh24da67did"
+
+[node name="NetworkServer" type="Node" parent="." node_paths=PackedStringArray("SocketFactory", "ObjectManager")]
+script = ExtResource("1_epypp")
+SocketFactory = NodePath("../UdpSocketFactory")
+ObjectManager = NodePath("../ServerObjectManager")
+metadata/_custom_type_script = "uid://w5b4owjflqiu"
+
+[node name="NetworkClient" type="Node" parent="." node_paths=PackedStringArray("SocketFactory", "ObjectManager")]
+script = ExtResource("3_d21ai")
+SocketFactory = NodePath("../UdpSocketFactory")
+ObjectManager = NodePath("../ClientObjectManager")
+metadata/_custom_type_script = "uid://k06imkqhqfou"
+
+[node name="UdpSocketFactory" type="Node" parent="."]
+script = ExtResource("2_0hol4")
+metadata/_custom_type_script = "uid://do4yp43xwbvnw"
+
+[node name="ServerObjectManager" type="Node" parent="."]
+script = ExtResource("3_q6r6c")
+metadata/_custom_type_script = "uid://cgy0caypdwc16"
+
+[node name="MirageLogSettings" type="Node" parent="."]
+script = ExtResource("4_0hol4")
+metadata/_custom_type_script = "uid://ju5e0xxx2bcv"
+
+[node name="ClientObjectManager" type="Node" parent="."]
+script = ExtResource("7_rj586")
+metadata/_custom_type_script = "uid://6gnyagatho3g"
+
+[node name="NetworkRoot" type="Node" parent="."]
+
+[node name="NetworkHud" type="Node" parent="." node_paths=PackedStringArray("_manager", "_socketFactory")]
+script = ExtResource("8_rj586")
+_manager = NodePath("../NetworkManager")
+_socketFactory = NodePath("../UdpSocketFactory")
+metadata/_custom_type_script = "uid://02nidtyhkc1i"
+
+[node name="MirageLogSettings2" type="Node" parent="."]
+script = ExtResource("4_0hol4")
+metadata/_custom_type_script = "uid://ju5e0xxx2bcv"
