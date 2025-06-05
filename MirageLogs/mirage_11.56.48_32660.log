@@ -1,0 +1,497 @@
+Starting log file: 6/5/2025 11:56:48 AM
+
+[Log] Starting Host Mode
+   at Mirage.NetworkManager.StartHost() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Components\NetworkManager.cs:line 44
+   at Mirage.DebugNetworkManager.StartHost() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Components\DebugNetworkManager.cs:line 61
+   at Mirage.NetworkHud.StartHostPressed() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkHud.cs:line 87
+   at Godot.Callable.<From>g__Trampoline|1_0(Object delegateObj, NativeVariantPtrArgs args, godot_variant& ret) in /root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/Callable.generics.cs:line 39
+   at Godot.DelegateUtils.InvokeWithVariantArgs(IntPtr delegateGCHandle, Void* trampoline, godot_variant** args, Int32 argc, godot_variant* outRet) in /root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/DelegateUtils.cs:line 86
+
+[Log] NetworkServer created, Mirage version: 0.0.0.0
+   at Mirage.NetworkServer.StartServer(NetworkClient localClient) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkServer.cs:line 197
+   at Mirage.NetworkManager.StartHost() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Components\NetworkManager.cs:line 45
+   at Mirage.DebugNetworkManager.StartHost() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Components\DebugNetworkManager.cs:line 61
+   at Mirage.NetworkHud.StartHostPressed() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkHud.cs:line 87
+   at Godot.Callable.<From>g__Trampoline|1_0(Object delegateObj, NativeVariantPtrArgs args, godot_variant& ret) in /root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/Callable.generics.cs:line 39
+   at Godot.DelegateUtils.InvokeWithVariantArgs(IntPtr delegateGCHandle, Void* trampoline, godot_variant** args, Int32 argc, godot_variant* outRet) in /root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/DelegateUtils.cs:line 86
+
+[Log] New handler for id:36373 type:Mirage.NetworkPingMessage
+   at Mirage.MessageHandler.RegisterHandler[T](MessageDelegateWithPlayer`1 handler, Boolean allowUnauthenticated) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\MessageHandler.cs:line 34
+   at Mirage.NetworkServer.StartServer(NetworkClient localClient) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkServer.cs:line 207
+   at Mirage.NetworkManager.StartHost() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Components\NetworkManager.cs:line 45
+   at Mirage.DebugNetworkManager.StartHost() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Components\DebugNetworkManager.cs:line 61
+   at Mirage.NetworkHud.StartHostPressed() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkHud.cs:line 87
+   at Godot.Callable.<From>g__Trampoline|1_0(Object delegateObj, NativeVariantPtrArgs args, godot_variant& ret) in /root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/Callable.generics.cs:line 39
+   at Godot.DelegateUtils.InvokeWithVariantArgs(IntPtr delegateGCHandle, Void* trampoline, godot_variant** args, Int32 argc, godot_variant* outRet) in /root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/DelegateUtils.cs:line 86
+
+[Log] New handler for id:26718 type:Mirage.Messages.UpdateVarsMessage
+   at Mirage.MessageHandler.RegisterHandler[T](MessageDelegateWithPlayer`1 handler, Boolean allowUnauthenticated) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\MessageHandler.cs:line 34
+   at Mirage.MessageReceiverExtensions.RegisterHandler[T](IMessageReceiver receiver, MessageDelegateWithPlayer`1 handler) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\MessageReceiverExtensions.cs:line 14
+   at Mirage.SyncVarReceiver..ctor(IObjectLocator objectLocator, MessageHandler messageHandler) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Syncing\SyncVarReceiver.cs:line 25
+   at Mirage.NetworkServer.StartServer(NetworkClient localClient) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkServer.cs:line 210
+   at Mirage.NetworkManager.StartHost() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Components\NetworkManager.cs:line 45
+   at Mirage.DebugNetworkManager.StartHost() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Components\DebugNetworkManager.cs:line 61
+   at Mirage.NetworkHud.StartHostPressed() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkHud.cs:line 87
+   at Godot.Callable.<From>g__Trampoline|1_0(Object delegateObj, NativeVariantPtrArgs args, godot_variant& ret) in /root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/Callable.generics.cs:line 39
+   at Godot.DelegateUtils.InvokeWithVariantArgs(IntPtr delegateGCHandle, Void* trampoline, godot_variant** args, Int32 argc, godot_variant* outRet) in /root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/DelegateUtils.cs:line 86
+
+[Log] Configuring buffer, start Size 5, max size 100
+   at Mirage.SocketLayer.Pool`1.Configure(Int32 startPoolSize, Int32 maxPoolSize) in D:\Dev\Mirage.Godot\src\Mirage.Core\Mirage.SocketLayer\Pool.cs:line 45
+   at Mirage.Serialization.NetworkWriterPool.Configure(Int32 bufferSize, Int32 startPoolSize, Int32 maxPoolSize) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Serialization\NetworkWriterPool.cs:line 36
+   at Mirage.NetworkServer.StartServer(NetworkClient localClient) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkServer.cs:line 217
+   at Mirage.NetworkManager.StartHost() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Components\NetworkManager.cs:line 45
+   at Mirage.DebugNetworkManager.StartHost() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Components\DebugNetworkManager.cs:line 61
+   at Mirage.NetworkHud.StartHostPressed() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkHud.cs:line 87
+   at Godot.Callable.<From>g__Trampoline|1_0(Object delegateObj, NativeVariantPtrArgs args, godot_variant& ret) in /root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/Callable.generics.cs:line 39
+   at Godot.DelegateUtils.InvokeWithVariantArgs(IntPtr delegateGCHandle, Void* trampoline, godot_variant** args, Int32 argc, godot_variant* outRet) in /root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/DelegateUtils.cs:line 86
+
+[Log] Server started, listening for connections. Using socket Mirage.Udp.UdpSocket
+   at Mirage.NetworkServer.StartServer(NetworkClient localClient) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkServer.cs:line 234
+   at Mirage.NetworkManager.StartHost() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Components\NetworkManager.cs:line 45
+   at Mirage.DebugNetworkManager.StartHost() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Components\DebugNetworkManager.cs:line 61
+   at Mirage.NetworkHud.StartHostPressed() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkHud.cs:line 87
+   at Godot.Callable.<From>g__Trampoline|1_0(Object delegateObj, NativeVariantPtrArgs args, godot_variant& ret) in /root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/Callable.generics.cs:line 39
+   at Godot.DelegateUtils.InvokeWithVariantArgs(IntPtr delegateGCHandle, Void* trampoline, godot_variant** args, Int32 argc, godot_variant* outRet) in /root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/DelegateUtils.cs:line 86
+
+[Log] New handler for id:14706 type:Mirage.RemoteCalls.RpcReply
+   at Mirage.MessageHandler.RegisterHandler[T](MessageDelegateWithPlayer`1 handler, Boolean allowUnauthenticated) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\MessageHandler.cs:line 34
+   at Mirage.MessageReceiverExtensions.RegisterHandler[T](IMessageReceiver receiver, MessageDelegateWithPlayer`1 handler) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\MessageReceiverExtensions.cs:line 14
+   at Mirage.RemoteCalls.RpcHandler..ctor(MessageHandler messageHandler, IObjectLocator objectLocator, RpcInvokeType invokeType) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\RemoteCalls\RpcHandler.cs:line 27
+   at Mirage.ServerObjectManager.ServerStarted(NetworkServer server) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Objects\ServerObjectManager.cs:line 55
+   at Mirage.NetworkServer.StartServer(NetworkClient localClient) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkServer.cs:line 249
+   at Mirage.NetworkManager.StartHost() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Components\NetworkManager.cs:line 45
+   at Mirage.DebugNetworkManager.StartHost() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Components\DebugNetworkManager.cs:line 61
+   at Mirage.NetworkHud.StartHostPressed() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkHud.cs:line 87
+   at Godot.Callable.<From>g__Trampoline|1_0(Object delegateObj, NativeVariantPtrArgs args, godot_variant& ret) in /root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/Callable.generics.cs:line 39
+   at Godot.DelegateUtils.InvokeWithVariantArgs(IntPtr delegateGCHandle, Void* trampoline, godot_variant** args, Int32 argc, godot_variant* outRet) in /root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/DelegateUtils.cs:line 86
+
+[Log] New handler for id:42127 type:Mirage.RemoteCalls.RpcMessage
+   at Mirage.MessageHandler.RegisterHandler[T](MessageDelegateWithPlayer`1 handler, Boolean allowUnauthenticated) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\MessageHandler.cs:line 34
+   at Mirage.MessageReceiverExtensions.RegisterHandler[T](IMessageReceiver receiver, MessageDelegateWithPlayer`1 handler) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\MessageReceiverExtensions.cs:line 14
+   at Mirage.RemoteCalls.RpcHandler..ctor(MessageHandler messageHandler, IObjectLocator objectLocator, RpcInvokeType invokeType) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\RemoteCalls\RpcHandler.cs:line 28
+   at Mirage.ServerObjectManager.ServerStarted(NetworkServer server) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Objects\ServerObjectManager.cs:line 55
+   at Mirage.NetworkServer.StartServer(NetworkClient localClient) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkServer.cs:line 249
+   at Mirage.NetworkManager.StartHost() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Components\NetworkManager.cs:line 45
+   at Mirage.DebugNetworkManager.StartHost() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Components\DebugNetworkManager.cs:line 61
+   at Mirage.NetworkHud.StartHostPressed() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkHud.cs:line 87
+   at Godot.Callable.<From>g__Trampoline|1_0(Object delegateObj, NativeVariantPtrArgs args, godot_variant& ret) in /root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/Callable.generics.cs:line 39
+   at Godot.DelegateUtils.InvokeWithVariantArgs(IntPtr delegateGCHandle, Void* trampoline, godot_variant** args, Int32 argc, godot_variant* outRet) in /root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/DelegateUtils.cs:line 86
+
+[Log] New handler for id:18971 type:Mirage.RemoteCalls.RpcWithReplyMessage
+   at Mirage.MessageHandler.RegisterHandler[T](MessageDelegateWithPlayer`1 handler, Boolean allowUnauthenticated) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\MessageHandler.cs:line 34
+   at Mirage.MessageReceiverExtensions.RegisterHandler[T](IMessageReceiver receiver, MessageDelegateWithPlayer`1 handler) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\MessageReceiverExtensions.cs:line 14
+   at Mirage.RemoteCalls.RpcHandler..ctor(MessageHandler messageHandler, IObjectLocator objectLocator, RpcInvokeType invokeType) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\RemoteCalls\RpcHandler.cs:line 29
+   at Mirage.ServerObjectManager.ServerStarted(NetworkServer server) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Objects\ServerObjectManager.cs:line 55
+   at Mirage.NetworkServer.StartServer(NetworkClient localClient) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkServer.cs:line 249
+   at Mirage.NetworkManager.StartHost() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Components\NetworkManager.cs:line 45
+   at Mirage.DebugNetworkManager.StartHost() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Components\DebugNetworkManager.cs:line 61
+   at Mirage.NetworkHud.StartHostPressed() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkHud.cs:line 87
+   at Godot.Callable.<From>g__Trampoline|1_0(Object delegateObj, NativeVariantPtrArgs args, godot_variant& ret) in /root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/Callable.generics.cs:line 39
+   at Godot.DelegateUtils.InvokeWithVariantArgs(IntPtr delegateGCHandle, Void* trampoline, godot_variant** args, Int32 argc, godot_variant* outRet) in /root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/DelegateUtils.cs:line 86
+
+[Log] Client Connect Host to Server
+   at Mirage.NetworkClient.ConnectHost(NetworkServer server, IDataHandler serverDataHandler) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkClient.cs:line 211
+   at Mirage.NetworkServer.StartServer(NetworkClient localClient) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkServer.cs:line 258
+   at Mirage.NetworkManager.StartHost() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Components\NetworkManager.cs:line 45
+   at Mirage.DebugNetworkManager.StartHost() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Components\DebugNetworkManager.cs:line 61
+   at Mirage.NetworkHud.StartHostPressed() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkHud.cs:line 87
+   at Godot.Callable.<From>g__Trampoline|1_0(Object delegateObj, NativeVariantPtrArgs args, godot_variant& ret) in /root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/Callable.generics.cs:line 39
+   at Godot.DelegateUtils.InvokeWithVariantArgs(IntPtr delegateGCHandle, Void* trampoline, godot_variant** args, Int32 argc, godot_variant* outRet) in /root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/DelegateUtils.cs:line 86
+
+[Log] Registering prefab '' as asset:13780716
+   at Mirage.ClientObjectManager.RegisterPrefab(PackedScene identity, Int32 prefabHash) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Objects\ClientObjectManager.cs:line 235
+   at Mirage.ClientObjectManager.RegisterPrefab(PackedScene identity) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Objects\ClientObjectManager.cs:line 216
+   at Mirage.ClientObjectManager.RegisterPrefabs(IEnumerable`1 prefabs, Boolean skipExisting) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Objects\ClientObjectManager.cs:line 164
+   at Mirage.ClientObjectManager.ClientStarted(NetworkClient client) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Objects\ClientObjectManager.cs:line 61
+   at Mirage.NetworkClient.ConnectHost(NetworkServer server, IDataHandler serverDataHandler) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkClient.cs:line 229
+   at Mirage.NetworkServer.StartServer(NetworkClient localClient) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkServer.cs:line 258
+   at Mirage.NetworkManager.StartHost() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Components\NetworkManager.cs:line 45
+   at Mirage.DebugNetworkManager.StartHost() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Components\DebugNetworkManager.cs:line 61
+   at Mirage.NetworkHud.StartHostPressed() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkHud.cs:line 87
+   at Godot.Callable.<From>g__Trampoline|1_0(Object delegateObj, NativeVariantPtrArgs args, godot_variant& ret) in /root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/Callable.generics.cs:line 39
+   at Godot.DelegateUtils.InvokeWithVariantArgs(IntPtr delegateGCHandle, Void* trampoline, godot_variant** args, Int32 argc, godot_variant* outRet) in /root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/DelegateUtils.cs:line 86
+
+[Log] New handler for id:49056 type:Mirage.Messages.ObjectDestroyMessage
+   at Mirage.MessageHandler.RegisterHandler[T](MessageDelegateWithPlayer`1 handler, Boolean allowUnauthenticated) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\MessageHandler.cs:line 34
+   at Mirage.MessageReceiverExtensions.RegisterHandler[T](IMessageReceiver receiver, MessageDelegate`1 handler, Boolean allowUnauthenticated) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\MessageReceiverExtensions.cs:line 26
+   at Mirage.ClientObjectManager.RegisterHostHandlers() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Objects\ClientObjectManager.cs:line 89
+   at Mirage.ClientObjectManager.ClientStarted(NetworkClient client) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Objects\ClientObjectManager.cs:line 69
+   at Mirage.NetworkClient.ConnectHost(NetworkServer server, IDataHandler serverDataHandler) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkClient.cs:line 229
+   at Mirage.NetworkServer.StartServer(NetworkClient localClient) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkServer.cs:line 258
+   at Mirage.NetworkManager.StartHost() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Components\NetworkManager.cs:line 45
+   at Mirage.DebugNetworkManager.StartHost() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Components\DebugNetworkManager.cs:line 61
+   at Mirage.NetworkHud.StartHostPressed() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkHud.cs:line 87
+   at Godot.Callable.<From>g__Trampoline|1_0(Object delegateObj, NativeVariantPtrArgs args, godot_variant& ret) in /root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/Callable.generics.cs:line 39
+   at Godot.DelegateUtils.InvokeWithVariantArgs(IntPtr delegateGCHandle, Void* trampoline, godot_variant** args, Int32 argc, godot_variant* outRet) in /root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/DelegateUtils.cs:line 86
+
+[Log] New handler for id:13394 type:Mirage.Messages.ObjectHideMessage
+   at Mirage.MessageHandler.RegisterHandler[T](MessageDelegateWithPlayer`1 handler, Boolean allowUnauthenticated) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\MessageHandler.cs:line 34
+   at Mirage.MessageReceiverExtensions.RegisterHandler[T](IMessageReceiver receiver, MessageDelegate`1 handler, Boolean allowUnauthenticated) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\MessageReceiverExtensions.cs:line 26
+   at Mirage.ClientObjectManager.RegisterHostHandlers() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Objects\ClientObjectManager.cs:line 90
+   at Mirage.ClientObjectManager.ClientStarted(NetworkClient client) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Objects\ClientObjectManager.cs:line 69
+   at Mirage.NetworkClient.ConnectHost(NetworkServer server, IDataHandler serverDataHandler) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkClient.cs:line 229
+   at Mirage.NetworkServer.StartServer(NetworkClient localClient) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkServer.cs:line 258
+   at Mirage.NetworkManager.StartHost() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Components\NetworkManager.cs:line 45
+   at Mirage.DebugNetworkManager.StartHost() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Components\DebugNetworkManager.cs:line 61
+   at Mirage.NetworkHud.StartHostPressed() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkHud.cs:line 87
+   at Godot.Callable.<From>g__Trampoline|1_0(Object delegateObj, NativeVariantPtrArgs args, godot_variant& ret) in /root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/Callable.generics.cs:line 39
+   at Godot.DelegateUtils.InvokeWithVariantArgs(IntPtr delegateGCHandle, Void* trampoline, godot_variant** args, Int32 argc, godot_variant* outRet) in /root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/DelegateUtils.cs:line 86
+
+[Log] New handler for id:26592 type:Mirage.Messages.SpawnMessage
+   at Mirage.MessageHandler.RegisterHandler[T](MessageDelegateWithPlayer`1 handler, Boolean allowUnauthenticated) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\MessageHandler.cs:line 34
+   at Mirage.MessageReceiverExtensions.RegisterHandler[T](IMessageReceiver receiver, MessageDelegate`1 handler, Boolean allowUnauthenticated) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\MessageReceiverExtensions.cs:line 26
+   at Mirage.ClientObjectManager.RegisterHostHandlers() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Objects\ClientObjectManager.cs:line 91
+   at Mirage.ClientObjectManager.ClientStarted(NetworkClient client) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Objects\ClientObjectManager.cs:line 69
+   at Mirage.NetworkClient.ConnectHost(NetworkServer server, IDataHandler serverDataHandler) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkClient.cs:line 229
+   at Mirage.NetworkServer.StartServer(NetworkClient localClient) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkServer.cs:line 258
+   at Mirage.NetworkManager.StartHost() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Components\NetworkManager.cs:line 45
+   at Mirage.DebugNetworkManager.StartHost() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Components\DebugNetworkManager.cs:line 61
+   at Mirage.NetworkHud.StartHostPressed() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkHud.cs:line 87
+   at Godot.Callable.<From>g__Trampoline|1_0(Object delegateObj, NativeVariantPtrArgs args, godot_variant& ret) in /root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/Callable.generics.cs:line 39
+   at Godot.DelegateUtils.InvokeWithVariantArgs(IntPtr delegateGCHandle, Void* trampoline, godot_variant** args, Int32 argc, godot_variant* outRet) in /root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/DelegateUtils.cs:line 86
+
+[Log] New handler for id:65212 type:Mirage.Messages.RemoveAuthorityMessage
+   at Mirage.MessageHandler.RegisterHandler[T](MessageDelegateWithPlayer`1 handler, Boolean allowUnauthenticated) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\MessageHandler.cs:line 34
+   at Mirage.MessageReceiverExtensions.RegisterHandler[T](IMessageReceiver receiver, MessageDelegate`1 handler, Boolean allowUnauthenticated) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\MessageReceiverExtensions.cs:line 26
+   at Mirage.ClientObjectManager.RegisterHostHandlers() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Objects\ClientObjectManager.cs:line 92
+   at Mirage.ClientObjectManager.ClientStarted(NetworkClient client) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Objects\ClientObjectManager.cs:line 69
+   at Mirage.NetworkClient.ConnectHost(NetworkServer server, IDataHandler serverDataHandler) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkClient.cs:line 229
+   at Mirage.NetworkServer.StartServer(NetworkClient localClient) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkServer.cs:line 258
+   at Mirage.NetworkManager.StartHost() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Components\NetworkManager.cs:line 45
+   at Mirage.DebugNetworkManager.StartHost() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Components\DebugNetworkManager.cs:line 61
+   at Mirage.NetworkHud.StartHostPressed() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkHud.cs:line 87
+   at Godot.Callable.<From>g__Trampoline|1_0(Object delegateObj, NativeVariantPtrArgs args, godot_variant& ret) in /root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/Callable.generics.cs:line 39
+   at Godot.DelegateUtils.InvokeWithVariantArgs(IntPtr delegateGCHandle, Void* trampoline, godot_variant** args, Int32 argc, godot_variant* outRet) in /root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/DelegateUtils.cs:line 86
+
+[Log] New handler for id:15382 type:Mirage.Messages.RemoveCharacterMessage
+   at Mirage.MessageHandler.RegisterHandler[T](MessageDelegateWithPlayer`1 handler, Boolean allowUnauthenticated) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\MessageHandler.cs:line 34
+   at Mirage.MessageReceiverExtensions.RegisterHandler[T](IMessageReceiver receiver, MessageDelegate`1 handler, Boolean allowUnauthenticated) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\MessageReceiverExtensions.cs:line 26
+   at Mirage.ClientObjectManager.RegisterHostHandlers() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Objects\ClientObjectManager.cs:line 93
+   at Mirage.ClientObjectManager.ClientStarted(NetworkClient client) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Objects\ClientObjectManager.cs:line 69
+   at Mirage.NetworkClient.ConnectHost(NetworkServer server, IDataHandler serverDataHandler) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkClient.cs:line 229
+   at Mirage.NetworkServer.StartServer(NetworkClient localClient) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkServer.cs:line 258
+   at Mirage.NetworkManager.StartHost() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Components\NetworkManager.cs:line 45
+   at Mirage.DebugNetworkManager.StartHost() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Components\DebugNetworkManager.cs:line 61
+   at Mirage.NetworkHud.StartHostPressed() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkHud.cs:line 87
+   at Godot.Callable.<From>g__Trampoline|1_0(Object delegateObj, NativeVariantPtrArgs args, godot_variant& ret) in /root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/Callable.generics.cs:line 39
+   at Godot.DelegateUtils.InvokeWithVariantArgs(IntPtr delegateGCHandle, Void* trampoline, godot_variant** args, Int32 argc, godot_variant* outRet) in /root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/DelegateUtils.cs:line 86
+
+[Log] Server accepted local client connection: connection(Mirage.PipePeerConnection+PipeEndPoint)
+   at Mirage.NetworkServer.AddLocalConnection(NetworkClient client, IConnection connection) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkServer.cs:line 394
+   at Mirage.NetworkClient.ConnectHost(NetworkServer server, IDataHandler serverDataHandler) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkClient.cs:line 236
+   at Mirage.NetworkServer.StartServer(NetworkClient localClient) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkServer.cs:line 258
+   at Mirage.NetworkManager.StartHost() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Components\NetworkManager.cs:line 45
+   at Mirage.DebugNetworkManager.StartHost() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Components\DebugNetworkManager.cs:line 61
+   at Mirage.NetworkHud.StartHostPressed() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkHud.cs:line 87
+   at Godot.Callable.<From>g__Trampoline|1_0(Object delegateObj, NativeVariantPtrArgs args, godot_variant& ret) in /root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/Callable.generics.cs:line 39
+   at Godot.DelegateUtils.InvokeWithVariantArgs(IntPtr delegateGCHandle, Void* trampoline, godot_variant** args, Int32 argc, godot_variant* outRet) in /root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/DelegateUtils.cs:line 86
+
+[Log] New handler for id:55540 type:Mirage.Authentication.AuthSuccessMessage
+   at Mirage.MessageHandler.RegisterHandler[T](MessageDelegateWithPlayer`1 handler, Boolean allowUnauthenticated) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\MessageHandler.cs:line 34
+   at Mirage.MessageWaiter`1..ctor(NetworkClient client, Boolean allowUnauthenticated) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Utils\MessageWaiter.cs:line 23
+   at Mirage.NetworkClient.Authenticate() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkClient.cs:line 250
+   at Mirage.NetworkClient.ConnectHost(NetworkServer server, IDataHandler serverDataHandler) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkClient.cs:line 238
+   at Mirage.NetworkServer.StartServer(NetworkClient localClient) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkServer.cs:line 258
+   at Mirage.NetworkManager.StartHost() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Components\NetworkManager.cs:line 45
+   at Mirage.DebugNetworkManager.StartHost() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Components\DebugNetworkManager.cs:line 61
+   at Mirage.NetworkHud.StartHostPressed() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkHud.cs:line 87
+   at Godot.Callable.<From>g__Trampoline|1_0(Object delegateObj, NativeVariantPtrArgs args, godot_variant& ret) in /root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/Callable.generics.cs:line 39
+   at Godot.DelegateUtils.InvokeWithVariantArgs(IntPtr delegateGCHandle, Void* trampoline, godot_variant** args, Int32 argc, godot_variant* outRet) in /root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/DelegateUtils.cs:line 86
+
+[Log] NetworkServer StartHost
+   at Mirage.NetworkServer.StartServer(NetworkClient localClient) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkServer.cs:line 261
+   at Mirage.NetworkManager.StartHost() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Components\NetworkManager.cs:line 45
+   at Mirage.DebugNetworkManager.StartHost() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Components\DebugNetworkManager.cs:line 61
+   at Mirage.NetworkHud.StartHostPressed() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkHud.cs:line 87
+   at Godot.Callable.<From>g__Trampoline|1_0(Object delegateObj, NativeVariantPtrArgs args, godot_variant& ret) in /root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/Callable.generics.cs:line 39
+   at Godot.DelegateUtils.InvokeWithVariantArgs(IntPtr delegateGCHandle, Void* trampoline, godot_variant** args, Int32 argc, godot_variant* outRet) in /root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/DelegateUtils.cs:line 86
+
+[Log] Sending Mirage.Authentication.AuthSuccessMessage to connection(Mirage.PipePeerConnection+PipeEndPoint) channel:Reliable
+   at Mirage.NetworkPlayer.Send[T](T message, Channel channelId) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkPlayer.cs:line 182
+   at Mirage.NetworkServer.AuthenticationSuccess(NetworkPlayer player, AuthenticationResult result) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkServer.cs:line 349
+   at Mirage.NetworkServer.Authenticate(NetworkPlayer player) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkServer.cs:line 322
+   at Mirage.NetworkServer.StartServer(NetworkClient localClient) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkServer.cs:line 262
+   at Mirage.NetworkManager.StartHost() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Components\NetworkManager.cs:line 45
+   at Mirage.DebugNetworkManager.StartHost() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Components\DebugNetworkManager.cs:line 61
+   at Mirage.NetworkHud.StartHostPressed() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkHud.cs:line 87
+   at Godot.Callable.<From>g__Trampoline|1_0(Object delegateObj, NativeVariantPtrArgs args, godot_variant& ret) in /root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/Callable.generics.cs:line 39
+   at Godot.DelegateUtils.InvokeWithVariantArgs(IntPtr delegateGCHandle, Void* trampoline, godot_variant** args, Int32 argc, godot_variant* outRet) in /root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/DelegateUtils.cs:line 86
+
+[Log] Receiving Mirage.Authentication.AuthSuccessMessage from connection(Mirage.PipePeerConnection+PipeEndPoint)
+   at Mirage.MessageHandler.<>c__DisplayClass7_0`1.<MessageWrapper>g__AdapterFunction|0(NetworkPlayer player, NetworkReader reader) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\MessageHandler.cs:line 47
+   at Mirage.MessageHandler.InvokeHandler(NetworkPlayer player, Int32 msgType, NetworkReader reader) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\MessageHandler.cs:line 120
+   at Mirage.MessageHandler.HandleMessage(NetworkPlayer player, ArraySegment`1 packet) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\MessageHandler.cs:line 92
+   at Mirage.NetworkClient.DataHandler.ReceiveMessage(IConnection connection, ArraySegment`1 message) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkClient.cs:line 427
+   at Mirage.PipePeerConnection.receive(Byte[] packet, Int32 offset, Int32 length) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\PipePeerConnection.cs:line 126
+   at Mirage.PipePeerConnection.SendReliable(Byte[] message, Int32 offset, Int32 length) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\PipePeerConnection.cs:line 107
+   at Mirage.SocketLayer.ConnectionExtensions.SendReliable(IConnection conn, ArraySegment`1 packet) in D:\Dev\Mirage.Godot\src\Mirage.Core\Mirage.SocketLayer\Connection\ConnectionExtensions.cs:line 40
+   at Mirage.NetworkPlayer.Send(ArraySegment`1 segment, Channel channelId) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkPlayer.cs:line 199
+   at Mirage.NetworkPlayer.Send[T](T message, Channel channelId) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkPlayer.cs:line 183
+   at Mirage.NetworkServer.AuthenticationSuccess(NetworkPlayer player, AuthenticationResult result) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkServer.cs:line 349
+   at Mirage.NetworkServer.Authenticate(NetworkPlayer player) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkServer.cs:line 322
+   at Mirage.NetworkServer.StartServer(NetworkClient localClient) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkServer.cs:line 262
+   at Mirage.NetworkManager.StartHost() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Components\NetworkManager.cs:line 45
+   at Mirage.DebugNetworkManager.StartHost() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Components\DebugNetworkManager.cs:line 61
+   at Mirage.NetworkHud.StartHostPressed() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkHud.cs:line 87
+   at Godot.Callable.<From>g__Trampoline|1_0(Object delegateObj, NativeVariantPtrArgs args, godot_variant& ret) in /root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/Callable.generics.cs:line 39
+   at Godot.DelegateUtils.InvokeWithVariantArgs(IntPtr delegateGCHandle, Void* trampoline, godot_variant** args, Int32 argc, godot_variant* outRet) in /root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/DelegateUtils.cs:line 86
+
+[Log] Authentication successful with 
+   at Mirage.NetworkClient.AuthenticationSuccessCallback(NetworkPlayer _, AuthSuccessMessage message) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkClient.cs:line 260
+   at Mirage.MessageWaiter`1.HandleMessage(NetworkPlayer player, T message) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Utils\MessageWaiter.cs:line 32
+   at Mirage.MessageHandler.<>c__DisplayClass7_0`1.<MessageWrapper>g__AdapterFunction|0(NetworkPlayer player, NetworkReader reader) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\MessageHandler.cs:line 49
+   at Mirage.MessageHandler.InvokeHandler(NetworkPlayer player, Int32 msgType, NetworkReader reader) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\MessageHandler.cs:line 120
+   at Mirage.MessageHandler.HandleMessage(NetworkPlayer player, ArraySegment`1 packet) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\MessageHandler.cs:line 92
+   at Mirage.NetworkClient.DataHandler.ReceiveMessage(IConnection connection, ArraySegment`1 message) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkClient.cs:line 427
+   at Mirage.PipePeerConnection.receive(Byte[] packet, Int32 offset, Int32 length) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\PipePeerConnection.cs:line 126
+   at Mirage.PipePeerConnection.SendReliable(Byte[] message, Int32 offset, Int32 length) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\PipePeerConnection.cs:line 107
+   at Mirage.SocketLayer.ConnectionExtensions.SendReliable(IConnection conn, ArraySegment`1 packet) in D:\Dev\Mirage.Godot\src\Mirage.Core\Mirage.SocketLayer\Connection\ConnectionExtensions.cs:line 40
+   at Mirage.NetworkPlayer.Send(ArraySegment`1 segment, Channel channelId) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkPlayer.cs:line 199
+   at Mirage.NetworkPlayer.Send[T](T message, Channel channelId) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkPlayer.cs:line 183
+   at Mirage.NetworkServer.AuthenticationSuccess(NetworkPlayer player, AuthenticationResult result) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkServer.cs:line 349
+   at Mirage.NetworkServer.Authenticate(NetworkPlayer player) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkServer.cs:line 322
+   at Mirage.NetworkServer.StartServer(NetworkClient localClient) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkServer.cs:line 262
+   at Mirage.NetworkManager.StartHost() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Components\NetworkManager.cs:line 45
+   at Mirage.DebugNetworkManager.StartHost() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Components\DebugNetworkManager.cs:line 61
+   at Mirage.NetworkHud.StartHostPressed() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkHud.cs:line 87
+   at Godot.Callable.<From>g__Trampoline|1_0(Object delegateObj, NativeVariantPtrArgs args, godot_variant& ret) in /root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/Callable.generics.cs:line 39
+   at Godot.DelegateUtils.InvokeWithVariantArgs(IntPtr delegateGCHandle, Void* trampoline, godot_variant** args, Int32 argc, godot_variant* outRet) in /root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/DelegateUtils.cs:line 86
+
+[Log] Adding Identity[0, NetworkIdentity] to Player[Mirage.PipePeerConnection+PipeEndPoint] OwnedObjects
+   at Mirage.NetworkPlayer.AddOwnedObject(NetworkIdentity identity) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkPlayer.cs:line 273
+   at Mirage.NetworkIdentity.SetOwner(NetworkPlayer player) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Objects\NetworkIdentity.cs:line 261
+   at Mirage.ServerObjectManager.AddCharacter(NetworkPlayer player, NetworkIdentity identity) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Objects\ServerObjectManager.cs:line 216
+   at Mirage.CharacterSpawner.Server_Authenticated(NetworkPlayer player) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Components\CharacterSpawner.cs:line 40
+   at Mirage.NetworkServer.AuthenticationSuccess(NetworkPlayer player, AuthenticationResult result) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkServer.cs:line 352
+   at Mirage.NetworkServer.Authenticate(NetworkPlayer player) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkServer.cs:line 322
+   at Mirage.NetworkServer.StartServer(NetworkClient localClient) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkServer.cs:line 262
+   at Mirage.NetworkManager.StartHost() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Components\NetworkManager.cs:line 45
+   at Mirage.DebugNetworkManager.StartHost() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Components\DebugNetworkManager.cs:line 61
+   at Mirage.NetworkHud.StartHostPressed() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkHud.cs:line 87
+   at Godot.Callable.<From>g__Trampoline|1_0(Object delegateObj, NativeVariantPtrArgs args, godot_variant& ret) in /root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/Callable.generics.cs:line 39
+   at Godot.DelegateUtils.InvokeWithVariantArgs(IntPtr delegateGCHandle, Void* trampoline, godot_variant** args, Int32 argc, godot_variant* outRet) in /root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/DelegateUtils.cs:line 86
+
+[Log] SpawnVisibleObjects: Checking Observers on 0 objects for player: connection(Mirage.PipePeerConnection+PipeEndPoint)
+   at Mirage.ServerObjectManager.SpawnVisibleObjects(NetworkPlayer player, Boolean ignoreHasCharacter, HashSet`1 skip) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Objects\ServerObjectManager.cs:line 625
+   at Mirage.ServerObjectManager.SpawnVisibleObjects(NetworkPlayer player, Boolean ignoreHasCharacter, NetworkIdentity skip) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Objects\ServerObjectManager.cs:line 598
+   at Mirage.ServerObjectManager.SpawnVisibleObjects(NetworkPlayer player, NetworkIdentity skip) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Objects\ServerObjectManager.cs:line 585
+   at Mirage.ServerObjectManager.AddCharacter(NetworkPlayer player, NetworkIdentity identity) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Objects\ServerObjectManager.cs:line 226
+   at Mirage.CharacterSpawner.Server_Authenticated(NetworkPlayer player) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Components\CharacterSpawner.cs:line 40
+   at Mirage.NetworkServer.AuthenticationSuccess(NetworkPlayer player, AuthenticationResult result) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkServer.cs:line 352
+   at Mirage.NetworkServer.Authenticate(NetworkPlayer player) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkServer.cs:line 322
+   at Mirage.NetworkServer.StartServer(NetworkClient localClient) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkServer.cs:line 262
+   at Mirage.NetworkManager.StartHost() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Components\NetworkManager.cs:line 45
+   at Mirage.DebugNetworkManager.StartHost() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Components\DebugNetworkManager.cs:line 61
+   at Mirage.NetworkHud.StartHostPressed() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkHud.cs:line 87
+   at Godot.Callable.<From>g__Trampoline|1_0(Object delegateObj, NativeVariantPtrArgs args, godot_variant& ret) in /root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/Callable.generics.cs:line 39
+   at Godot.DelegateUtils.InvokeWithVariantArgs(IntPtr delegateGCHandle, Void* trampoline, godot_variant** args, Int32 argc, godot_variant* outRet) in /root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/DelegateUtils.cs:line 86
+
+[Log] Adding new playerGameObject object netId: 0 asset ID 13780716
+   at Mirage.ServerObjectManager.AddCharacter(NetworkPlayer player, NetworkIdentity identity) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Objects\ServerObjectManager.cs:line 228
+   at Mirage.CharacterSpawner.Server_Authenticated(NetworkPlayer player) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Components\CharacterSpawner.cs:line 40
+   at Mirage.NetworkServer.AuthenticationSuccess(NetworkPlayer player, AuthenticationResult result) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkServer.cs:line 352
+   at Mirage.NetworkServer.Authenticate(NetworkPlayer player) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkServer.cs:line 322
+   at Mirage.NetworkServer.StartServer(NetworkClient localClient) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkServer.cs:line 262
+   at Mirage.NetworkManager.StartHost() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Components\NetworkManager.cs:line 45
+   at Mirage.DebugNetworkManager.StartHost() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Components\DebugNetworkManager.cs:line 61
+   at Mirage.NetworkHud.StartHostPressed() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkHud.cs:line 87
+   at Godot.Callable.<From>g__Trampoline|1_0(Object delegateObj, NativeVariantPtrArgs args, godot_variant& ret) in /root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/Callable.generics.cs:line 39
+   at Godot.DelegateUtils.InvokeWithVariantArgs(IntPtr delegateGCHandle, Void* trampoline, godot_variant** args, Int32 argc, godot_variant* outRet) in /root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/DelegateUtils.cs:line 86
+
+[Log] OnStartServer invoked on 'Identity[1, NetworkIdentity]' (NetId: 1)
+   at Mirage.NetworkIdentity.StartServer() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Objects\NetworkIdentity.cs:line 485
+   at Mirage.ServerObjectManager.Spawn(NetworkIdentity identity) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Objects\ServerObjectManager.cs:line 366
+   at Mirage.ServerObjectManager.Spawn(NetworkIdentity identity, NetworkPlayer owner) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Objects\ServerObjectManager.cs:line 340
+   at Mirage.ServerObjectManager.Respawn(NetworkIdentity identity) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Objects\ServerObjectManager.cs:line 238
+   at Mirage.ServerObjectManager.AddCharacter(NetworkPlayer player, NetworkIdentity identity) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Objects\ServerObjectManager.cs:line 230
+   at Mirage.CharacterSpawner.Server_Authenticated(NetworkPlayer player) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Components\CharacterSpawner.cs:line 40
+   at Mirage.NetworkServer.AuthenticationSuccess(NetworkPlayer player, AuthenticationResult result) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkServer.cs:line 352
+   at Mirage.NetworkServer.Authenticate(NetworkPlayer player) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkServer.cs:line 322
+   at Mirage.NetworkServer.StartServer(NetworkClient localClient) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkServer.cs:line 262
+   at Mirage.NetworkManager.StartHost() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Components\NetworkManager.cs:line 45
+   at Mirage.DebugNetworkManager.StartHost() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Components\DebugNetworkManager.cs:line 61
+   at Mirage.NetworkHud.StartHostPressed() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkHud.cs:line 87
+   at Godot.Callable.<From>g__Trampoline|1_0(Object delegateObj, NativeVariantPtrArgs args, godot_variant& ret) in /root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/Callable.generics.cs:line 39
+   at Godot.DelegateUtils.InvokeWithVariantArgs(IntPtr delegateGCHandle, Void* trampoline, godot_variant** args, Int32 argc, godot_variant* outRet) in /root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/DelegateUtils.cs:line 86
+
+[Log] Adding [netId=1, name=NetworkIdentity] to World
+   at Mirage.NetworkWorld.AddIdentity(UInt32 netId, NetworkIdentity identity) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkWorld.cs:line 79
+   at Mirage.ServerObjectManager.Spawn(NetworkIdentity identity) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Objects\ServerObjectManager.cs:line 367
+   at Mirage.ServerObjectManager.Spawn(NetworkIdentity identity, NetworkPlayer owner) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Objects\ServerObjectManager.cs:line 340
+   at Mirage.ServerObjectManager.Respawn(NetworkIdentity identity) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Objects\ServerObjectManager.cs:line 238
+   at Mirage.ServerObjectManager.AddCharacter(NetworkPlayer player, NetworkIdentity identity) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Objects\ServerObjectManager.cs:line 230
+   at Mirage.CharacterSpawner.Server_Authenticated(NetworkPlayer player) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Components\CharacterSpawner.cs:line 40
+   at Mirage.NetworkServer.AuthenticationSuccess(NetworkPlayer player, AuthenticationResult result) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkServer.cs:line 352
+   at Mirage.NetworkServer.Authenticate(NetworkPlayer player) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkServer.cs:line 322
+   at Mirage.NetworkServer.StartServer(NetworkClient localClient) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkServer.cs:line 262
+   at Mirage.NetworkManager.StartHost() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Components\NetworkManager.cs:line 45
+   at Mirage.DebugNetworkManager.StartHost() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Components\DebugNetworkManager.cs:line 61
+   at Mirage.NetworkHud.StartHostPressed() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkHud.cs:line 87
+   at Godot.Callable.<From>g__Trampoline|1_0(Object delegateObj, NativeVariantPtrArgs args, godot_variant& ret) in /root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/Callable.generics.cs:line 39
+   at Godot.DelegateUtils.InvokeWithVariantArgs(IntPtr delegateGCHandle, Void* trampoline, godot_variant** args, Int32 argc, godot_variant* outRet) in /root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/DelegateUtils.cs:line 86
+
+[Log] SpawnObject NetId:1 PrefabHash:13780716
+   at Mirage.ServerObjectManager.Spawn(NetworkIdentity identity) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Objects\ServerObjectManager.cs:line 370
+   at Mirage.ServerObjectManager.Spawn(NetworkIdentity identity, NetworkPlayer owner) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Objects\ServerObjectManager.cs:line 340
+   at Mirage.ServerObjectManager.Respawn(NetworkIdentity identity) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Objects\ServerObjectManager.cs:line 238
+   at Mirage.ServerObjectManager.AddCharacter(NetworkPlayer player, NetworkIdentity identity) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Objects\ServerObjectManager.cs:line 230
+   at Mirage.CharacterSpawner.Server_Authenticated(NetworkPlayer player) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Components\CharacterSpawner.cs:line 40
+   at Mirage.NetworkServer.AuthenticationSuccess(NetworkPlayer player, AuthenticationResult result) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkServer.cs:line 352
+   at Mirage.NetworkServer.Authenticate(NetworkPlayer player) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkServer.cs:line 322
+   at Mirage.NetworkServer.StartServer(NetworkClient localClient) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkServer.cs:line 262
+   at Mirage.NetworkManager.StartHost() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Components\NetworkManager.cs:line 45
+   at Mirage.DebugNetworkManager.StartHost() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Components\DebugNetworkManager.cs:line 61
+   at Mirage.NetworkHud.StartHostPressed() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkHud.cs:line 87
+   at Godot.Callable.<From>g__Trampoline|1_0(Object delegateObj, NativeVariantPtrArgs args, godot_variant& ret) in /root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/Callable.generics.cs:line 39
+   at Godot.DelegateUtils.InvokeWithVariantArgs(IntPtr delegateGCHandle, Void* trampoline, godot_variant** args, Int32 argc, godot_variant* outRet) in /root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/DelegateUtils.cs:line 86
+
+[Log] Adding Identity[1, NetworkIdentity] to Player[Mirage.PipePeerConnection+PipeEndPoint] VisList
+   at Mirage.NetworkPlayer.AddToVisList(NetworkIdentity identity) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkPlayer.cs:line 236
+   at Mirage.NetworkIdentity.AddNewObservers(Boolean initialize) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Objects\NetworkIdentity.cs:line 986
+   at Mirage.NetworkIdentity.RebuildObservers(Boolean initialize) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Objects\NetworkIdentity.cs:line 940
+   at Mirage.ServerObjectManager.Spawn(NetworkIdentity identity) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Objects\ServerObjectManager.cs:line 372
+   at Mirage.ServerObjectManager.Spawn(NetworkIdentity identity, NetworkPlayer owner) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Objects\ServerObjectManager.cs:line 340
+   at Mirage.ServerObjectManager.Respawn(NetworkIdentity identity) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Objects\ServerObjectManager.cs:line 238
+   at Mirage.ServerObjectManager.AddCharacter(NetworkPlayer player, NetworkIdentity identity) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Objects\ServerObjectManager.cs:line 230
+   at Mirage.CharacterSpawner.Server_Authenticated(NetworkPlayer player) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Components\CharacterSpawner.cs:line 40
+   at Mirage.NetworkServer.AuthenticationSuccess(NetworkPlayer player, AuthenticationResult result) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkServer.cs:line 352
+   at Mirage.NetworkServer.Authenticate(NetworkPlayer player) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkServer.cs:line 322
+   at Mirage.NetworkServer.StartServer(NetworkClient localClient) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkServer.cs:line 262
+   at Mirage.NetworkManager.StartHost() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Components\NetworkManager.cs:line 45
+   at Mirage.DebugNetworkManager.StartHost() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Components\DebugNetworkManager.cs:line 61
+   at Mirage.NetworkHud.StartHostPressed() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkHud.cs:line 87
+   at Godot.Callable.<From>g__Trampoline|1_0(Object delegateObj, NativeVariantPtrArgs args, godot_variant& ret) in /root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/Callable.generics.cs:line 39
+   at Godot.DelegateUtils.InvokeWithVariantArgs(IntPtr delegateGCHandle, Void* trampoline, godot_variant** args, Int32 argc, godot_variant* outRet) in /root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/DelegateUtils.cs:line 86
+
+[Log] Server SendSpawnMessage: name=NetworkIdentity PrefabHash=13780716 SceneHash= netId=1
+   at Mirage.ServerObjectManager.SendSpawnMessage(NetworkIdentity identity, NetworkPlayer player) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Objects\ServerObjectManager.cs:line 379
+   at Mirage.ServerObjectManager.ShowToPlayer(NetworkIdentity identity, NetworkPlayer player) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Objects\ServerObjectManager.cs:line 260
+   at Mirage.NetworkIdentity.AddNewObservers(Boolean initialize) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Objects\NetworkIdentity.cs:line 988
+   at Mirage.NetworkIdentity.RebuildObservers(Boolean initialize) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Objects\NetworkIdentity.cs:line 940
+   at Mirage.ServerObjectManager.Spawn(NetworkIdentity identity) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Objects\ServerObjectManager.cs:line 372
+   at Mirage.ServerObjectManager.Spawn(NetworkIdentity identity, NetworkPlayer owner) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Objects\ServerObjectManager.cs:line 340
+   at Mirage.ServerObjectManager.Respawn(NetworkIdentity identity) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Objects\ServerObjectManager.cs:line 238
+   at Mirage.ServerObjectManager.AddCharacter(NetworkPlayer player, NetworkIdentity identity) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Objects\ServerObjectManager.cs:line 230
+   at Mirage.CharacterSpawner.Server_Authenticated(NetworkPlayer player) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Components\CharacterSpawner.cs:line 40
+   at Mirage.NetworkServer.AuthenticationSuccess(NetworkPlayer player, AuthenticationResult result) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkServer.cs:line 352
+   at Mirage.NetworkServer.Authenticate(NetworkPlayer player) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkServer.cs:line 322
+   at Mirage.NetworkServer.StartServer(NetworkClient localClient) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkServer.cs:line 262
+   at Mirage.NetworkManager.StartHost() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Components\NetworkManager.cs:line 45
+   at Mirage.DebugNetworkManager.StartHost() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Components\DebugNetworkManager.cs:line 61
+   at Mirage.NetworkHud.StartHostPressed() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkHud.cs:line 87
+   at Godot.Callable.<From>g__Trampoline|1_0(Object delegateObj, NativeVariantPtrArgs args, godot_variant& ret) in /root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/Callable.generics.cs:line 39
+   at Godot.DelegateUtils.InvokeWithVariantArgs(IntPtr delegateGCHandle, Void* trampoline, godot_variant** args, Int32 argc, godot_variant* outRet) in /root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/DelegateUtils.cs:line 86
+
+[Log] Sending Mirage.Messages.SpawnMessage to connection(Mirage.PipePeerConnection+PipeEndPoint) channel:Reliable
+   at Mirage.NetworkPlayer.Send[T](T message, Channel channelId) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkPlayer.cs:line 182
+   at Mirage.ServerObjectManager.SendSpawnMessage(NetworkIdentity identity, NetworkPlayer player) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Objects\ServerObjectManager.cs:line 403
+   at Mirage.ServerObjectManager.ShowToPlayer(NetworkIdentity identity, NetworkPlayer player) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Objects\ServerObjectManager.cs:line 260
+   at Mirage.NetworkIdentity.AddNewObservers(Boolean initialize) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Objects\NetworkIdentity.cs:line 988
+   at Mirage.NetworkIdentity.RebuildObservers(Boolean initialize) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Objects\NetworkIdentity.cs:line 940
+   at Mirage.ServerObjectManager.Spawn(NetworkIdentity identity) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Objects\ServerObjectManager.cs:line 372
+   at Mirage.ServerObjectManager.Spawn(NetworkIdentity identity, NetworkPlayer owner) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Objects\ServerObjectManager.cs:line 340
+   at Mirage.ServerObjectManager.Respawn(NetworkIdentity identity) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Objects\ServerObjectManager.cs:line 238
+   at Mirage.ServerObjectManager.AddCharacter(NetworkPlayer player, NetworkIdentity identity) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Objects\ServerObjectManager.cs:line 230
+   at Mirage.CharacterSpawner.Server_Authenticated(NetworkPlayer player) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Components\CharacterSpawner.cs:line 40
+   at Mirage.NetworkServer.AuthenticationSuccess(NetworkPlayer player, AuthenticationResult result) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkServer.cs:line 352
+   at Mirage.NetworkServer.Authenticate(NetworkPlayer player) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkServer.cs:line 322
+   at Mirage.NetworkServer.StartServer(NetworkClient localClient) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkServer.cs:line 262
+   at Mirage.NetworkManager.StartHost() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Components\NetworkManager.cs:line 45
+   at Mirage.DebugNetworkManager.StartHost() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Components\DebugNetworkManager.cs:line 61
+   at Mirage.NetworkHud.StartHostPressed() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkHud.cs:line 87
+   at Godot.Callable.<From>g__Trampoline|1_0(Object delegateObj, NativeVariantPtrArgs args, godot_variant& ret) in /root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/Callable.generics.cs:line 39
+   at Godot.DelegateUtils.InvokeWithVariantArgs(IntPtr delegateGCHandle, Void* trampoline, godot_variant** args, Int32 argc, godot_variant* outRet) in /root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/DelegateUtils.cs:line 86
+
+[Log] Receiving Mirage.Messages.SpawnMessage from connection(Mirage.PipePeerConnection+PipeEndPoint)
+   at Mirage.MessageHandler.<>c__DisplayClass7_0`1.<MessageWrapper>g__AdapterFunction|0(NetworkPlayer player, NetworkReader reader) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\MessageHandler.cs:line 47
+   at Mirage.MessageHandler.InvokeHandler(NetworkPlayer player, Int32 msgType, NetworkReader reader) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\MessageHandler.cs:line 120
+   at Mirage.MessageHandler.HandleMessage(NetworkPlayer player, ArraySegment`1 packet) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\MessageHandler.cs:line 92
+   at Mirage.NetworkClient.DataHandler.ReceiveMessage(IConnection connection, ArraySegment`1 message) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkClient.cs:line 427
+   at Mirage.PipePeerConnection.receive(Byte[] packet, Int32 offset, Int32 length) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\PipePeerConnection.cs:line 126
+   at Mirage.PipePeerConnection.SendReliable(Byte[] message, Int32 offset, Int32 length) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\PipePeerConnection.cs:line 107
+   at Mirage.SocketLayer.ConnectionExtensions.SendReliable(IConnection conn, ArraySegment`1 packet) in D:\Dev\Mirage.Godot\src\Mirage.Core\Mirage.SocketLayer\Connection\ConnectionExtensions.cs:line 40
+   at Mirage.NetworkPlayer.Send(ArraySegment`1 segment, Channel channelId) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkPlayer.cs:line 199
+   at Mirage.NetworkPlayer.Send[T](T message, Channel channelId) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkPlayer.cs:line 183
+   at Mirage.ServerObjectManager.SendSpawnMessage(NetworkIdentity identity, NetworkPlayer player) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Objects\ServerObjectManager.cs:line 403
+   at Mirage.ServerObjectManager.ShowToPlayer(NetworkIdentity identity, NetworkPlayer player) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Objects\ServerObjectManager.cs:line 260
+   at Mirage.NetworkIdentity.AddNewObservers(Boolean initialize) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Objects\NetworkIdentity.cs:line 988
+   at Mirage.NetworkIdentity.RebuildObservers(Boolean initialize) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Objects\NetworkIdentity.cs:line 940
+   at Mirage.ServerObjectManager.Spawn(NetworkIdentity identity) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Objects\ServerObjectManager.cs:line 372
+   at Mirage.ServerObjectManager.Spawn(NetworkIdentity identity, NetworkPlayer owner) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Objects\ServerObjectManager.cs:line 340
+   at Mirage.ServerObjectManager.Respawn(NetworkIdentity identity) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Objects\ServerObjectManager.cs:line 238
+   at Mirage.ServerObjectManager.AddCharacter(NetworkPlayer player, NetworkIdentity identity) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Objects\ServerObjectManager.cs:line 230
+   at Mirage.CharacterSpawner.Server_Authenticated(NetworkPlayer player) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Components\CharacterSpawner.cs:line 40
+   at Mirage.NetworkServer.AuthenticationSuccess(NetworkPlayer player, AuthenticationResult result) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkServer.cs:line 352
+   at Mirage.NetworkServer.Authenticate(NetworkPlayer player) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkServer.cs:line 322
+   at Mirage.NetworkServer.StartServer(NetworkClient localClient) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkServer.cs:line 262
+   at Mirage.NetworkManager.StartHost() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Components\NetworkManager.cs:line 45
+   at Mirage.DebugNetworkManager.StartHost() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Components\DebugNetworkManager.cs:line 61
+   at Mirage.NetworkHud.StartHostPressed() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkHud.cs:line 87
+   at Godot.Callable.<From>g__Trampoline|1_0(Object delegateObj, NativeVariantPtrArgs args, godot_variant& ret) in /root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/Callable.generics.cs:line 39
+   at Godot.DelegateUtils.InvokeWithVariantArgs(IntPtr delegateGCHandle, Void* trampoline, godot_variant** args, Int32 argc, godot_variant* outRet) in /root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/DelegateUtils.cs:line 86
+
+[Log] ClientScene.OnOwnerMessage - player=NetworkIdentity
+   at Mirage.ClientObjectManager.CheckForLocalPlayer(NetworkIdentity identity) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Objects\ClientObjectManager.cs:line 695
+   at Mirage.ClientObjectManager.OnHostClientSpawn(SpawnMessage msg) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Objects\ClientObjectManager.cs:line 684
+   at Mirage.MessageReceiverExtensions.<>c__DisplayClass1_0`1.<RegisterHandler>b__0(NetworkPlayer _, T value) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\MessageReceiverExtensions.cs:line 26
+   at Mirage.MessageHandler.<>c__DisplayClass7_0`1.<MessageWrapper>g__AdapterFunction|0(NetworkPlayer player, NetworkReader reader) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\MessageHandler.cs:line 49
+   at Mirage.MessageHandler.InvokeHandler(NetworkPlayer player, Int32 msgType, NetworkReader reader) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\MessageHandler.cs:line 120
+   at Mirage.MessageHandler.HandleMessage(NetworkPlayer player, ArraySegment`1 packet) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\MessageHandler.cs:line 92
+   at Mirage.NetworkClient.DataHandler.ReceiveMessage(IConnection connection, ArraySegment`1 message) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkClient.cs:line 427
+   at Mirage.PipePeerConnection.receive(Byte[] packet, Int32 offset, Int32 length) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\PipePeerConnection.cs:line 126
+   at Mirage.PipePeerConnection.SendReliable(Byte[] message, Int32 offset, Int32 length) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\PipePeerConnection.cs:line 107
+   at Mirage.SocketLayer.ConnectionExtensions.SendReliable(IConnection conn, ArraySegment`1 packet) in D:\Dev\Mirage.Godot\src\Mirage.Core\Mirage.SocketLayer\Connection\ConnectionExtensions.cs:line 40
+   at Mirage.NetworkPlayer.Send(ArraySegment`1 segment, Channel channelId) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkPlayer.cs:line 199
+   at Mirage.NetworkPlayer.Send[T](T message, Channel channelId) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkPlayer.cs:line 183
+   at Mirage.ServerObjectManager.SendSpawnMessage(NetworkIdentity identity, NetworkPlayer player) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Objects\ServerObjectManager.cs:line 403
+   at Mirage.ServerObjectManager.ShowToPlayer(NetworkIdentity identity, NetworkPlayer player) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Objects\ServerObjectManager.cs:line 260
+   at Mirage.NetworkIdentity.AddNewObservers(Boolean initialize) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Objects\NetworkIdentity.cs:line 988
+   at Mirage.NetworkIdentity.RebuildObservers(Boolean initialize) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Objects\NetworkIdentity.cs:line 940
+   at Mirage.ServerObjectManager.Spawn(NetworkIdentity identity) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Objects\ServerObjectManager.cs:line 372
+   at Mirage.ServerObjectManager.Spawn(NetworkIdentity identity, NetworkPlayer owner) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Objects\ServerObjectManager.cs:line 340
+   at Mirage.ServerObjectManager.Respawn(NetworkIdentity identity) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Objects\ServerObjectManager.cs:line 238
+   at Mirage.ServerObjectManager.AddCharacter(NetworkPlayer player, NetworkIdentity identity) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Objects\ServerObjectManager.cs:line 230
+   at Mirage.CharacterSpawner.Server_Authenticated(NetworkPlayer player) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Components\CharacterSpawner.cs:line 40
+   at Mirage.NetworkServer.AuthenticationSuccess(NetworkPlayer player, AuthenticationResult result) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkServer.cs:line 352
+   at Mirage.NetworkServer.Authenticate(NetworkPlayer player) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkServer.cs:line 322
+   at Mirage.NetworkServer.StartServer(NetworkClient localClient) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkServer.cs:line 262
+   at Mirage.NetworkManager.StartHost() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Components\NetworkManager.cs:line 45
+   at Mirage.DebugNetworkManager.StartHost() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Components\DebugNetworkManager.cs:line 61
+   at Mirage.NetworkHud.StartHostPressed() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkHud.cs:line 87
+   at Godot.Callable.<From>g__Trampoline|1_0(Object delegateObj, NativeVariantPtrArgs args, godot_variant& ret) in /root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/Callable.generics.cs:line 39
+   at Godot.DelegateUtils.InvokeWithVariantArgs(IntPtr delegateGCHandle, Void* trampoline, godot_variant** args, Int32 argc, godot_variant* outRet) in /root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/DelegateUtils.cs:line 86
+
+[Log] Added new observer 'connection(Mirage.PipePeerConnection+PipeEndPoint)' for NetworkIdentity
+   at Mirage.NetworkIdentity.AddNewObservers(Boolean initialize) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Objects\NetworkIdentity.cs:line 989
+   at Mirage.NetworkIdentity.RebuildObservers(Boolean initialize) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Objects\NetworkIdentity.cs:line 940
+   at Mirage.ServerObjectManager.Spawn(NetworkIdentity identity) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Objects\ServerObjectManager.cs:line 372
+   at Mirage.ServerObjectManager.Spawn(NetworkIdentity identity, NetworkPlayer owner) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Objects\ServerObjectManager.cs:line 340
+   at Mirage.ServerObjectManager.Respawn(NetworkIdentity identity) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Objects\ServerObjectManager.cs:line 238
+   at Mirage.ServerObjectManager.AddCharacter(NetworkPlayer player, NetworkIdentity identity) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Objects\ServerObjectManager.cs:line 230
+   at Mirage.CharacterSpawner.Server_Authenticated(NetworkPlayer player) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Components\CharacterSpawner.cs:line 40
+   at Mirage.NetworkServer.AuthenticationSuccess(NetworkPlayer player, AuthenticationResult result) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkServer.cs:line 352
+   at Mirage.NetworkServer.Authenticate(NetworkPlayer player) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkServer.cs:line 322
+   at Mirage.NetworkServer.StartServer(NetworkClient localClient) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkServer.cs:line 262
+   at Mirage.NetworkManager.StartHost() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Components\NetworkManager.cs:line 45
+   at Mirage.DebugNetworkManager.StartHost() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Components\DebugNetworkManager.cs:line 61
+   at Mirage.NetworkHud.StartHostPressed() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkHud.cs:line 87
+   at Godot.Callable.<From>g__Trampoline|1_0(Object delegateObj, NativeVariantPtrArgs args, godot_variant& ret) in /root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/Callable.generics.cs:line 39
+   at Godot.DelegateUtils.InvokeWithVariantArgs(IntPtr delegateGCHandle, Void* trampoline, godot_variant** args, Int32 argc, godot_variant* outRet) in /root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/DelegateUtils.cs:line 86
+
+[Log] DestroyObject instance:1
+   at Mirage.ServerObjectManager.DestroyObject(NetworkIdentity identity, Boolean destroyServerObject) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Objects\ServerObjectManager.cs:line 501
+   at Mirage.ServerObjectManager.Destroy(NetworkIdentity identity, Boolean destroyServerObject) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Objects\ServerObjectManager.cs:line 496
+   at Mirage.NetworkIdentity._ExitTree() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Objects\NetworkIdentity.cs:line 479
+   at Godot.Node.InvokeGodotClassMethod(godot_string_name& method, NativeVariantPtrArgs args, godot_variant& ret) in /root/godot/modules/mono/glue/GodotSharp/GodotSharp/Generated/GodotObjects/Node.cs:line 2516
+   at Mirage.NetworkIdentity.InvokeGodotClassMethod(godot_string_name& method, NativeVariantPtrArgs args, godot_variant& ret) in D:\Dev\Mirage.Godot.Clean\.godot\mono\temp\obj\Debug\Godot.SourceGenerators\Godot.SourceGenerators.ScriptMethodsGenerator\Mirage.NetworkIdentity_ScriptMethods.generated.cs:line 260
+   at Godot.Bridge.CSharpInstanceBridge.Call(IntPtr godotObjectGCHandle, godot_string_name* method, godot_variant** args, Int32 argCount, godot_variant_call_error* refCallError, godot_variant* ret) in /root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/Bridge/CSharpInstanceBridge.cs:line 24
+
+[Log] Removing [netId=1, name=NetworkIdentity] from World
+   at Mirage.NetworkWorld.RemoveIdentity(NetworkIdentity identity) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\NetworkWorld.cs:line 95
+   at Mirage.ServerObjectManager.DestroyObject(NetworkIdentity identity, Boolean destroyServerObject) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Objects\ServerObjectManager.cs:line 503
+   at Mirage.ServerObjectManager.Destroy(NetworkIdentity identity, Boolean destroyServerObject) in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Objects\ServerObjectManager.cs:line 496
+   at Mirage.NetworkIdentity._ExitTree() in D:\Dev\Mirage.Godot.Clean\Mirage\Scripts\Objects\NetworkIdentity.cs:line 479
+   at Godot.Node.InvokeGodotClassMethod(godot_string_name& method, NativeVariantPtrArgs args, godot_variant& ret) in /root/godot/modules/mono/glue/GodotSharp/GodotSharp/Generated/GodotObjects/Node.cs:line 2516
+   at Mirage.NetworkIdentity.InvokeGodotClassMethod(godot_string_name& method, NativeVariantPtrArgs args, godot_variant& ret) in D:\Dev\Mirage.Godot.Clean\.godot\mono\temp\obj\Debug\Godot.SourceGenerators\Godot.SourceGenerators.ScriptMethodsGenerator\Mirage.NetworkIdentity_ScriptMethods.generated.cs:line 260
+   at Godot.Bridge.CSharpInstanceBridge.Call(IntPtr godotObjectGCHandle, godot_string_name* method, godot_variant** args, Int32 argCount, godot_variant_call_error* refCallError, godot_variant* ret) in /root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/Bridge/CSharpInstanceBridge.cs:line 24
+

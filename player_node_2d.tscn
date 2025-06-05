@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://b4mut62kmxojp"]
 
-[ext_resource type="Script" uid="uid://dfxuqlbstmuuv" path="res://Scripts/Objects/NetworkIdentity.cs" id="1_l756r"]
+[ext_resource type="Script" uid="uid://dfxuqlbstmuuv" path="res://Mirage.Godot/Scripts/Objects/NetworkIdentity.cs" id="1_l756r"]
 [ext_resource type="Texture2D" uid="uid://l3v64pu0s630" path="res://icon.svg" id="2_vo0xe"]
 
 [node name="Node2D" type="Node2D"]
