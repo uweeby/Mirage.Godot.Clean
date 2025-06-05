@@ -1,16 +1,17 @@
-[gd_scene load_steps=9 format=3 uid="uid://bwwbq0vqax88v"]
+[gd_scene load_steps=10 format=3 uid="uid://bwwbq0vqax88v"]
 
-[ext_resource type="Script" uid="uid://d3gh24da67did" path="res://Scripts/Components/NetworkManager.cs" id="1_v3k62"]
+[ext_resource type="Script" uid="uid://brx5rrwmx52fh" path="res://Scripts/Components/DebugNetworkManager.cs" id="1_ur7lh"]
 [ext_resource type="Script" uid="uid://w5b4owjflqiu" path="res://Scripts/NetworkServer.cs" id="2_ur7lh"]
 [ext_resource type="Script" uid="uid://cgy0caypdwc16" path="res://Scripts/Objects/ServerObjectManager.cs" id="3_1xh71"]
 [ext_resource type="Script" uid="uid://k06imkqhqfou" path="res://Scripts/NetworkClient.cs" id="4_qm5xi"]
 [ext_resource type="Script" uid="uid://6gnyagatho3g" path="res://Scripts/Objects/ClientObjectManager.cs" id="5_4x0tm"]
 [ext_resource type="Script" uid="uid://do4yp43xwbvnw" path="res://Scripts/Udp/UdpSocketFactory.cs" id="6_a6w0r"]
 [ext_resource type="Script" uid="uid://dm8rbgrawv8ej" path="res://Scripts/Components/CharacterSpawner.cs" id="7_cynor"]
+[ext_resource type="PackedScene" uid="uid://b4mut62kmxojp" path="res://player_node_2d.tscn" id="8_1xh71"]
 [ext_resource type="Script" uid="uid://02nidtyhkc1i" path="res://Scripts/NetworkHud.cs" id="8_tv66h"]
 
 [node name="NetworkManager" type="Node" node_paths=PackedStringArray("Server", "ServerObjectManager", "Client", "ClientObjectManager", "SocketFactory")]
-script = ExtResource("1_v3k62")
+script = ExtResource("1_ur7lh")
 Server = NodePath("NetworkServer")
 ServerObjectManager = NodePath("ServerObjectManager")
 MaxConnections = 4
@@ -36,8 +37,10 @@ SocketFactory = NodePath("../UdpSocketFactory")
 ObjectManager = NodePath("../ClientObjectManager")
 metadata/_custom_type_script = "uid://k06imkqhqfou"
 
-[node name="ClientObjectManager" type="Node" parent="."]
+[node name="ClientObjectManager" type="Node" parent="." node_paths=PackedStringArray("SpawnParent")]
 script = ExtResource("5_4x0tm")
+SpawnParent = NodePath("../NetworkSpawnRoot")
+PackedScenes = Array[PackedScene]([ExtResource("8_1xh71")])
 metadata/_custom_type_script = "uid://6gnyagatho3g"
 
 [node name="UdpSocketFactory" type="Node" parent="."]
@@ -49,6 +52,7 @@ script = ExtResource("7_cynor")
 Server = NodePath("../NetworkServer")
 ServerObjectManager = NodePath("../ServerObjectManager")
 SpawnOnConnect = true
+Player = ExtResource("8_1xh71")
 metadata/_custom_type_script = "uid://dm8rbgrawv8ej"
 
 [node name="NetworkHud" type="Node" parent="." node_paths=PackedStringArray("_manager", "_socketFactory")]
@@ -58,3 +62,5 @@ _socketFactory = NodePath("../UdpSocketFactory")
 metadata/_custom_type_script = "uid://02nidtyhkc1i"
 
 [node name="Logger" type="Node" parent="."]
+
+[node name="NetworkSpawnRoot" type="Node" parent="."]
