@@ -1,0 +1,10 @@
+C:\dev\Mirage.Godot\src\Mirage.Core\Mirage.Logging\bin\Debug\net8.0\Mirage.Logging.deps.json
+C:\dev\Mirage.Godot\src\Mirage.Core\Mirage.Logging\bin\Debug\net8.0\Mirage.Logging.dll
+C:\dev\Mirage.Godot\src\Mirage.Core\Mirage.Logging\bin\Debug\net8.0\Mirage.Logging.pdb
+C:\dev\Mirage.Godot\src\Mirage.Core\Mirage.Logging\obj\Debug\net8.0\Mirage.Logging.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\Mirage.Godot\src\Mirage.Core\Mirage.Logging\obj\Debug\net8.0\Mirage.Logging.csproj.CoreCompileInputs.cache
+C:\dev\Mirage.Godot\src\Mirage.Core\Mirage.Logging\obj\Debug\net8.0\Mirage.Logging.sourcelink.json
+C:\dev\Mirage.Godot\src\Mirage.Core\Mirage.Logging\obj\Debug\net8.0\Mirage.Logging.dll
+C:\dev\Mirage.Godot\src\Mirage.Core\Mirage.Logging\obj\Debug\net8.0\refint\Mirage.Logging.dll
+C:\dev\Mirage.Godot\src\Mirage.Core\Mirage.Logging\obj\Debug\net8.0\Mirage.Logging.pdb
+C:\dev\Mirage.Godot\src\Mirage.Core\Mirage.Logging\obj\Debug\net8.0\ref\Mirage.Logging.dll

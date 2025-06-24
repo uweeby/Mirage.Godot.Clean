@@ -1,0 +1,14 @@
+C:\dev\Mirage.Godot\src\Mirage.Core\Mirage.SocketLayer\bin\Debug\net8.0\Mirage.SocketLayer.deps.json
+C:\dev\Mirage.Godot\src\Mirage.Core\Mirage.SocketLayer\bin\Debug\net8.0\Mirage.SocketLayer.dll
+C:\dev\Mirage.Godot\src\Mirage.Core\Mirage.SocketLayer\bin\Debug\net8.0\Mirage.SocketLayer.pdb
+C:\dev\Mirage.Godot\src\Mirage.Core\Mirage.SocketLayer\bin\Debug\net8.0\Mirage.Logging.dll
+C:\dev\Mirage.Godot\src\Mirage.Core\Mirage.SocketLayer\bin\Debug\net8.0\Mirage.Logging.pdb
+C:\dev\Mirage.Godot\src\Mirage.Core\Mirage.SocketLayer\obj\Debug\net8.0\Mirage.SocketLayer.csproj.AssemblyReference.cache
+C:\dev\Mirage.Godot\src\Mirage.Core\Mirage.SocketLayer\obj\Debug\net8.0\Mirage.SocketLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\Mirage.Godot\src\Mirage.Core\Mirage.SocketLayer\obj\Debug\net8.0\Mirage.SocketLayer.csproj.CoreCompileInputs.cache
+C:\dev\Mirage.Godot\src\Mirage.Core\Mirage.SocketLayer\obj\Debug\net8.0\Mirage.SocketLayer.sourcelink.json
+C:\dev\Mirage.Godot\src\Mirage.Core\Mirage.SocketLayer\obj\Debug\net8.0\Mirage.S.CABCA67A.Up2Date
+C:\dev\Mirage.Godot\src\Mirage.Core\Mirage.SocketLayer\obj\Debug\net8.0\Mirage.SocketLayer.dll
+C:\dev\Mirage.Godot\src\Mirage.Core\Mirage.SocketLayer\obj\Debug\net8.0\refint\Mirage.SocketLayer.dll
+C:\dev\Mirage.Godot\src\Mirage.Core\Mirage.SocketLayer\obj\Debug\net8.0\Mirage.SocketLayer.pdb
+C:\dev\Mirage.Godot\src\Mirage.Core\Mirage.SocketLayer\obj\Debug\net8.0\ref\Mirage.SocketLayer.dll
