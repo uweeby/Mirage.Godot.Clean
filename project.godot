@@ -11,7 +11,8 @@ config_version=5
 [application]
 
 config/name="Mirage.Godot.Clean"
-config/features=PackedStringArray("4.4", "Forward Plus")
+run/main_scene="uid://cx2o4shtvyxml"
+config/features=PackedStringArray("4.4", "C#", "Forward Plus")
 config/icon="res://icon.svg"
 
 [dotnet]
